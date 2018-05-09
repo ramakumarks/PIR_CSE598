@@ -1,0 +1,8 @@
+prefix=/home/ramakuma/catkin_ws/install
+
+Name: rosserial_mbed
+Description: Description of rosserial_mbed
+Version: 0.7.7
+Cflags: -I/home/ramakuma/catkin_ws/install/include
+Libs: -L/home/ramakuma/catkin_ws/install/lib 
+Requires: message_runtime

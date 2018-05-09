@@ -1,0 +1,26 @@
+launching the robot in gazebo
+
+roslaunch rrbot_gazebo rrbot_world.launch
+
+launching the controllers
+
+roslaunch rrbot_control rrbot_control.launch
+
+then runnign the python file to control joints
+
+python joint_control.py
+
+
+----------------------------------------------------
+
+launching the robot in gazebo
+
+roslaunch turbot_gazebo turbot_world.launch
+
+launching the controllers
+
+roslaunch turbot_gazebo turbot_control.launch
+
+then runnign the python file to control joints
+
+python joint_control.py

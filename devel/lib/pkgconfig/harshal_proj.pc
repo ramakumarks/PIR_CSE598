@@ -1,0 +1,8 @@
+prefix=/home/ramakuma/catkin_ws/devel
+
+Name: harshal_proj
+Description: Description of harshal_proj
+Version: 0.1.0
+Cflags: 
+Libs: -L/home/ramakuma/catkin_ws/devel/lib 
+Requires: 

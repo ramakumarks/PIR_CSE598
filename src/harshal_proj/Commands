@@ -1,0 +1,16 @@
+Terminal 1
+source ~/catkin_ws/devel/setup.bash
+roslaunch harshal_proj trash_world.launch
+
+Terminal 2
+source ~/catkin_ws/devel/setup.bash
+roslaunch harshal_proj trash_control.launch
+
+Terminal 3 in folder: harshal_proj/src
+source ~/catkin_ws/devel/setup.bash
+
+// rostopic pub -1 /trash/joint1_position_controller/command std_msgs/Float64 "data: 1.57"
+
+python trash_control.py
+
+
